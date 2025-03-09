@@ -1,0 +1,4 @@
+docker exec -it <container-id> bash
+apt-get install -y feh wget
+wget -O /root/wallpaper.jpg https://i.ibb.co/bjvyS5zj/anime-anime-girls-sword-red-fan-art-hd-wallpaper-preview.jpg
+feh --bg-scale /root/wallpaper.jpg
